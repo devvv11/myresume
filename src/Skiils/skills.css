@@ -1,0 +1,40 @@
+.skill
+{
+    width: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+   
+}
+.con-1
+{
+    width: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    gap : 20px;
+    margin-bottom: 60px;
+    border: 2px solid white;
+}
+
+.html {width: 70%; background-color: #04AA6D; border: 2px solid white;}
+.css {width: 70%; background-color: #04AA6D;border: 2px solid white;}
+.re {width: 40%; background-color: #04AA6D;border: 2px solid white;}
+.js {width: 50%; background-color: #04AA6D;border: 2px solid white;}
+.ejs {width: 20%; background-color: #04AA6D;border: 2px solid white;}
+
+.main
+{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  justify-items: center;
+  margin-top: 50px ;
+}
+.s {
+    text-align: right;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: white;
+  } 
